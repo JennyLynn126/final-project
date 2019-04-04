@@ -1,0 +1,141 @@
+body {
+	font-family:'Montserrat', sans-serif;
+	font-size: 16px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+p {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+/****** GRID ******/
+
+.full-width {
+	width: 1200px;
+	float: left;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 361px;
+	height: 250px;
+	float: left;
+	padding-left: 35px;
+	padding-top: 30px;
+	border-top: .02px solid grey;
+	border-bottom: .02px solid grey;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+/****** HEADER ******/
+
+header {
+	height: 100px;
+	
+}
+
+
+h1, h2, h3 {
+	font-family: 'Montserrat 700', sans-serif;
+}
+
+#rogue {
+	color: #77a466;
+}
+
+nav {
+	float: right;
+	padding: 20px 0px;
+	
+
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #77a466;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+
+/****** HEADER PHOTO ******/
+
+#header-photo {
+	height: 300px;
+	background: url('../img/hero-image.png');
+	background-size: cover;
+	
+
+}
+
+
+/****** TOP SECTION ******/
+
+#top-title {
+	color: #77a466;
+	font-size: 18px;
+}
+
+#top-paragraph {
+	line-height: 175%;
+	text-align: justify;
+
+}
+
+
+/****** BOTTOM SECTION ******/
+
+#menu-list {
+	color: #77a466;
+	list-style: none;
+	padding-left: 0;
+	line-height: 300%;
+}
+
+#reviews {
+	border-left: .02px solid grey;
+	border-right: .02px solid grey;
+}
+
+#reviews p {
+	line-height: 175%;
+	padding-right: 50px;
+}
+
+#contact p {
+	line-height: 175%;
+}
+
+
+/****** FOOTER SECTION ******/
+
+#footer {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	padding-bottom-bottom: 30px;
+	clear: both;
+
+}
+
+#fresh {
+	font-family: 'Yellowtail', cursive;
+	color: #77a466;
+}
+
